@@ -1,0 +1,83 @@
+# NexT Configuration - Tech Blog Custom
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+favicon:
+  small: /favicon.svg
+  medium: /favicon.svg
+
+# ---------------------------------------------------------------
+# Scheme Settings (Gemini, Muse, Mist, Pisces)
+# ---------------------------------------------------------------
+scheme: Gemini
+
+# ---------------------------------------------------------------
+# Dark Mode
+# ---------------------------------------------------------------
+darkmode: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+menu:
+  home: / || home
+  archives: /archives/ || archive
+  tags: /tags/ || tags
+  categories: /categories/ || th
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+sidebar:
+  position: left
+  width: 240
+  padding: 18
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+post:
+  copyright:
+    enable: false
+
+# ---------------------------------------------------------------
+# Code Block Settings
+# ---------------------------------------------------------------
+codeblock:
+  # Code Highlight Theme
+  highlight:
+    theme:
+      light: default
+      dark: atom-one-dark
+  
+  # Code Copy Button
+  copy_button:
+    enable: true
+    style: mac
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# ---------------------------------------------------------------
+# Math Formulas (optional)
+math:
+  enable: false
+
+# ---------------------------------------------------------------
+# Custom Styles
+# ---------------------------------------------------------------
+custom_styles:
+  body:
+    font-size: 16px
+    line-height: 1.8
+  heading:
+    font-weight: 600
+  code:
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace
+    font-size: 14px
+
+# ---------------------------------------------------------------
+# Custom Head
+# ---------------------------------------------------------------
+custom_file_path:
+  head: source/_includes/custom-head.html

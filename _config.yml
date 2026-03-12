@@ -97,7 +97,21 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+# Code Block Settings
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace: '  '
+  wrap: true
+  hljs: false
+  copy_code:
+    enable: true
+    text: 复制
+    success: 已复制
+    failure: 复制失败
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
