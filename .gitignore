@@ -5,3 +5,5 @@ Thumbs.db
 .deploy_gh/
 temp-gh/
 *.log
+public/
+db.json
