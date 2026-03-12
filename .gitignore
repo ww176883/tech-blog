@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.deploy_git/
+.deploy_gh/
+temp-gh/
+*.log
